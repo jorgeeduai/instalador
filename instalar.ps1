@@ -89,8 +89,8 @@ if ($actual -ne "conservar") {
         Aviso "Eso no parece una llave (deberia empezar con sk-ant-). No se guardo nada; vuelve a correr la linea para intentarlo de nuevo."
     } else {
         [Environment]::SetEnvironmentVariable("ANTHROPIC_API_KEY", $llave, "User")
-        [Environment]::SetEnvironmentVariable("ANTHROPIC_MODEL", "claude-sonnet-5", "User")
-        Ok "Llave guardada para tu usuario. Modelo del curso: claude-sonnet-5"
+        [Environment]::SetEnvironmentVariable("ANTHROPIC_MODEL", "claude-sonnet-5-5", "User")
+        Ok "Llave guardada para tu usuario. Modelo del curso: claude-sonnet-5-5"
         Write-Host "    La primera vez que abras claude te preguntara si usas esta llave: di que si."
     }
 }
