@@ -17,8 +17,8 @@
 #
 # Solo para pruebas: INSTALADOR_SIN_PROBAR_LLAVE=1 salta la consulta a OpenAI que valida la llave.
 
-MODELO_CURSO="gpt-6-sol"      # modelo de Codex por API (cambialo aqui)
-ESFUERZO_CURSO="medium"       # esfuerzo de razonamiento sugerido por OpenAI para Sol
+MODELO_CURSO="gpt-6.1-sol"    # modelo de Codex por API (cambialo aqui); GPT-6.1 Sol desde el 4-oct-2026
+ESFUERZO_CURSO="low"          # esfuerzo del curso: bajo (decision de Jorge, 4-oct-2026; OpenAI sugiere medium)
 LIBRERIAS="openpyxl python-docx python-pptx"
 URL_CODEX="https://chatgpt.com/codex/install.sh"
 

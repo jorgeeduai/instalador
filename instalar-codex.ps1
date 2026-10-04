@@ -19,8 +19,8 @@ $ErrorActionPreference = "Continue"
 Set-StrictMode -Off
 
 # ---------------------------------------------------------------- Valores del curso (cambialos aqui)
-$ModeloCurso    = "gpt-6-sol"     # modelo de Codex por API
-$EsfuerzoCurso  = "medium"        # esfuerzo de razonamiento sugerido por OpenAI para Sol
+$ModeloCurso    = "gpt-6.1-sol"   # modelo de Codex por API (GPT-6.1 Sol, modelo del curso desde el 4-oct-2026)
+$EsfuerzoCurso  = "low"           # esfuerzo del curso: bajo (decision de Jorge, 4-oct-2026; OpenAI sugiere medium)
 $SandboxWindows = "unelevated"    # sandbox nativo que no pide administrador; "elevated" pide permiso de administrador
 $PyVersion      = "3.13.15"       # Python de python.org si hace falta instalarlo
 $PySha256 = @{
